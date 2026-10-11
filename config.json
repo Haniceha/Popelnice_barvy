@@ -1,0 +1,15 @@
+{
+  "appName": "Moje popelnice",
+  "language": "cs",
+  "weekStartsOn": "monday",
+  "bins": [
+    { "id": "zluta", "name": "Žlutá", "image": "assets/popelnice-zluta.png", "color": "#f3c846" },
+    { "id": "cerna", "name": "Černá", "image": "assets/popelnice-cerna.png", "color": "#33383b" },
+    { "id": "modra", "name": "Modrá", "image": "assets/popelnice-modra.png", "color": "#438bc9" },
+    { "id": "hneda", "name": "Hnědá", "image": "assets/popelnice-hneda.png", "color": "#9b6948" }
+  ],
+  "defaultSchedule": {
+    "even": ["zluta", "cerna"],
+    "odd": ["modra", "hneda"]
+  }
+}
